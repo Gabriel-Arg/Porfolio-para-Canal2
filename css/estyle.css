@@ -1,5 +1,33 @@
-h1 {
+h3 {
+  font-family: "Shadows Into Light", cursive;
+  color: white;
+}
+
+.hero-fluid {
+  height: 100vh;
+  background: url(../img/background01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-fluid .hero-conteiner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-fluid .hero-conteiner .hero-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-fluid .hero-conteiner .hero-title h1 {
   font-family: "Righteous", cursive;
+  color: white;
+  font-size: 60px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=estyle.css.map */
