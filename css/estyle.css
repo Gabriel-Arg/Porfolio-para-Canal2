@@ -30,4 +30,31 @@ h3 {
   margin: 0;
 }
 
+.paralax-fluid {
+  height: 70vh;
+  padding: 0;
+  background: fixed no-repeat 50% 50%;
+  background-image: url(../img/background02.jpg);
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.paralax-fluid .paralax-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.paralax-fluid .paralax-container h2 {
+  font-family: "Righteous", cursive;
+  font-size: 30px;
+  text-shadow: 3px 3px 8px rgba(51, 51, 51, 0.83);
+}
+.paralax-fluid .paralax-container img {
+  margin-top: 30px;
+}
+
 /*# sourceMappingURL=estyle.css.map */

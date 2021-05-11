@@ -38,3 +38,37 @@ h3 {
         }
     }
 }
+
+.paralax-fluid {
+    // border: 1px solid red;
+    height: 70vh;
+    padding: 0;
+    background: fixed no-repeat 50% 50%;
+    background-image: url(../img/background02.jpg);
+    background-size: cover;
+    object-fit: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .paralax-container {
+        // border: 1px solid blue;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-family: 'Righteous', cursive;
+            font-size: 30px;
+            text-shadow: 3px 3px 8px rgba(51, 51, 51, 0.83);
+        }
+
+        img {
+            margin-top: 30px;
+        }
+    }
+}
