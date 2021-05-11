@@ -213,4 +213,49 @@
   color: rgba(56, 56, 56, 0.515);
 }
 
+.footer-fluid {
+  height: 440px;
+  background-color: #2b2b2b;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-fluid .footer-container {
+  height: 100%;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-fluid .footer-container .foto-perfil {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.footer-fluid .footer-container .foto-perfil img {
+  width: 100%;
+  border-radius: 20%;
+  border: 5px solid cyan;
+  filter: grayscale(95%);
+  transition: 0.6s;
+  cursor: pointer;
+}
+.footer-fluid .footer-container .foto-perfil img:hover {
+  filter: grayscale(0);
+}
+.footer-fluid .footer-container .nombre-perfil h2 {
+  font-family: "Righteous", cursive;
+  color: rgba(255, 255, 255, 0.487);
+  font-size: 35px;
+}
+.footer-fluid .footer-container .contacto a img {
+  width: 70px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.footer-fluid .footer-container .contacto a img:hover {
+  width: 100px;
+}
+
 /*# sourceMappingURL=estyle.css.map */
