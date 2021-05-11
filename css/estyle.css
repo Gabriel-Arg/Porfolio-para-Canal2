@@ -1,8 +1,3 @@
-h3 {
-  font-family: "Shadows Into Light", cursive;
-  color: white;
-}
-
 .hero-fluid {
   height: 100vh;
   background: url(../img/background01.jpg);
@@ -29,6 +24,10 @@ h3 {
   font-size: 50px;
   margin: 0;
 }
+.hero-fluid .hero-conteiner .hero-title h3 {
+  font-family: "Shadows Into Light", cursive;
+  color: white;
+}
 
 .paralax-fluid {
   height: 70vh;
@@ -51,10 +50,56 @@ h3 {
 .paralax-fluid .paralax-container h2 {
   font-family: "Righteous", cursive;
   font-size: 30px;
-  text-shadow: 3px 3px 8px rgba(51, 51, 51, 0.83);
+  text-shadow: 3px 3px 10px rgba(89, 89, 89, 0.83);
 }
 .paralax-fluid .paralax-container img {
   margin-top: 30px;
+}
+
+.tarjetas-fluid {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tarjetas-fluid .tarjetas-container {
+  height: 95vh;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tarjetas-fluid .tarjetas-container .tarjeta-title {
+  width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tarjetas-fluid .tarjetas-container .tarjeta-title h3 {
+  font-family: "Righteous", cursive;
+  color: black;
+  font-size: 30px;
+  margin: 5;
+}
+.tarjetas-fluid .tarjetas-container .tarjeta-title p {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: bold;
+}
+.tarjetas-fluid .tarjetas-container .tarjeta-flyer {
+  border-radius: 5px;
+  min-height: 400px;
+  min-width: 400px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #8f8f8f;
+}
+.tarjetas-fluid .tarjetas-container .tarjeta-flyer img {
+  max-width: 400px;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=estyle.css.map */

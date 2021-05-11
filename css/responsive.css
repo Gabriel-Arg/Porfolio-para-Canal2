@@ -1,0 +1,6 @@
+@media screen and (max-width: 670px) { 
+    .tarjetas-fluid .tarjetas-container .tarjeta-flyer {
+        min-height: 23rem;
+        min-width: 23rem;
+    }
+}
