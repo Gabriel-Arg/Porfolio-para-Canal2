@@ -3,4 +3,8 @@
         min-height: 23rem;
         min-width: 23rem;
     }
+
+    #todos-responsive {
+        width: 100%;
+    }
 }
