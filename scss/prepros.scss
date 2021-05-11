@@ -189,5 +189,43 @@
 }
 
 // ---------------------------------------------------
-//            TODOS
+//            PARALAX
 // ---------------------------------------------------
+
+.todos-fluid {
+    // border: 1px solid red;
+    margin-top: 50px;
+    height: 50vh;
+    padding: 0;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .todos-container {
+        // border: 1px solid red;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-family: 'Righteous', cursive;
+            color: rebeccapurple;
+            font-size: 45px;
+            margin: 5;
+            text-shadow: 3px 3px 8px rgba(77, 77, 77, 0.487);
+        }
+        p {
+            font-family: 'Shadows Into Light', cursive;
+            font-weight: bold;
+            text-align: center;
+            color: rgb(56, 56, 56);
+        }
+    }
+}
