@@ -89,17 +89,45 @@
 .tarjetas-fluid .tarjetas-container .tarjeta-title p {
   font-family: "Shadows Into Light", cursive;
   font-weight: bold;
+  text-align: center;
 }
 .tarjetas-fluid .tarjetas-container .tarjeta-flyer {
   border-radius: 5px;
-  min-height: 400px;
-  min-width: 400px;
+  min-height: 350px;
+  min-width: 350px;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px #8f8f8f;
+  box-shadow: 3px 3px 8px #8f8f8f;
 }
 .tarjetas-fluid .tarjetas-container .tarjeta-flyer img {
-  max-width: 400px;
+  height: 370px;
+  width: 370px;
   border-radius: 5px;
+}
+
+.carrusel-fluid {
+  height: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carrusel-fluid .carrusel-container {
+  padding: 0;
+  margin: 0;
+  height: 350px;
+  width: 350px;
+}
+.carrusel-fluid .carrusel-container .carrusel-marco {
+  height: 100%;
+}
+.carrusel-fluid .carrusel-container .carrusel-marco .carrusel-fotos {
+  height: 100%;
+}
+.carrusel-fluid .carrusel-container .carrusel-marco .carousel-control-prev,
+.carrusel-fluid .carrusel-container .carrusel-marco .carousel-control-next {
+  background: none;
+  border: none;
 }
 
 /*# sourceMappingURL=estyle.css.map */
